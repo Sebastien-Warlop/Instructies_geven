@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    color: #111;
+    width: 400px;
+}
+
+/*HEADER*/
+
+header {
+    align-items: center;
+    background-color: firebrick;
+}
+
+header img {
+    position: relative;
+    left: 10px;
+    top: 17px;
+    display: block;
+}
+
+header h1 {
+    font-style: inherit;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    text-align: left;
+    font-size: 35px;
+}
+
+/*navigatie*/
+nav ul {
+    background-color: orangered;
+    border: 3px solid black;
+    clear: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+li a {
+    display: block;
+}
+
+
+/*MAIN*/
+
+h2 { /*Boek/Bushcraft*/
+    text-align: center;
+    border: 5px solid orangered;
+    padding: 60px;
+    background-image: none; /*Moet nog komen*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+article{
+    background-color: azure;
+    border: 10px solid orangered;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /*ronde image*/
+    border-radius: 20px;
+}
+
+.KlikHier a:link{
+    background-color: orangered;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: firebrick;
+    height: 130px;
+}
+
+footer div{
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    color: white;
+    width: 360px;
+    font-size: 17px;
+}
+
+.copyright {
+    text-align: right;
+}
